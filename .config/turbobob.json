@@ -1,8 +1,12 @@
 {
 	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
 	"version_major": 1,
-	"project_name": "figlet",
+	"project_name": "FIGlet",
+	"meta": {
+		"description": "Container image for FIGlet - a program for making large letters out of ordinary text.",
+		"website": "http://www.figlet.org/"
+	},
 	"docker_images": [
-		{ "tag_latest": true, "image": "ghcr.io/r-xs-fi/figlet" }
+		{ "tag_latest": true, "image": "ghcr.io/r-xs-fi/figlet", "platforms": ["linux/amd64", "linux/arm64", "linux/arm/v7", "linux/riscv64"] }
 	]
 }
